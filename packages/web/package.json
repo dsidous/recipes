@@ -1,0 +1,36 @@
+{
+  "name": "@recipes/web",
+  "version": "1.0.0",
+  "author": "TJonas",
+  "license": "ISC",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc -p ./tsconfig.json",
+    "dev": "parcel serve index.html",
+    "prod": "parcel build index.html",
+    "run:prod": "npm run prod && serve dist"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "keywords": [
+    "parcel",
+    "react",
+    "typescript"
+  ],
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@types/node": "^13.13.2",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "parcel": "^2.0.0-alpha.3.2",
+    "serve": "^11.3.0",
+    "typescript": "^3.8.3"
+  }
+}

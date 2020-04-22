@@ -1,0 +1,1 @@
+# Parceljs React Typescript boilerplate with Jest and Enzyme
